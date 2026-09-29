@@ -51,7 +51,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="service.subtitles.kamui" name="Kamui-Subs Subtitles v1.0" version="1.0.0" provider-name="Highflight Studio">
+<addon id="service.subtitles.kamui" name="Kamui-Subs Subtitles v1.0" version="1.0.2" provider-name="Highflight Studio">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.22.0"/>
