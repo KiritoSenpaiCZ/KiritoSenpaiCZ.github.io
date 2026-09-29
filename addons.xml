@@ -74,14 +74,14 @@
     </requires>
     <extension point="xbmc.addon.repository" name="Highflight Subtitles Repository">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/KiritoSenpaiCZ/Kodi-Subtitles-Repo/main/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/KiritoSenpaiCZ/Kodi-Subtitles-Repo/main/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/KiritoSenpaiCZ/Kodi-Subtitles-Repo/main/zips</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/KiritoSenpaiCZ/KiritoSenpaiCZ.github.io/main/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/KiritoSenpaiCZ/KiritoSenpaiCZ.github.io/main/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/KiritoSenpaiCZ/KiritoSenpaiCZ.github.io/main/zips</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Repository for the Hiyori, WoSir and Edna Kodi subtitle addons</summary>
-        <description lang="en_GB">Adds one repository source so you can browse and install/update the Hiyori.cz, WoSir.cz and Edna.cz subtitle addons directly from Kodi's addon browser, instead of installing each addon's zip separately.</description>
+        <summary lang="en_GB">Repository for the Hiyori, WoSir, Edna and Kamui-Subs Kodi subtitle addons</summary>
+        <description lang="en_GB">Adds one repository source so you can browse and install/update the Hiyori.cz, WoSir.cz, Edna.cz and Kamui-Subs.cz subtitle addons directly from Kodi's addon browser, instead of installing each addon's zip separately.</description>
         <platform>all</platform>
         <license>All Rights Reserved</license>
         <assets>
