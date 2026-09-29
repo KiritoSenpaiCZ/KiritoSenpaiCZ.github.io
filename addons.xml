@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="service.subtitles.hiyori" name="Hiyori Subtitles v1.0" version="1.0.0" provider-name="Highflight Studio">
+<addon id="service.subtitles.hiyori" name="Hiyori Subtitles" version="1.0.1" provider-name="Highflight Studio">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.22.0"/>
@@ -8,7 +8,7 @@
     <extension point="xbmc.subtitle.module" library="service.py"/>
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Hiyori.cz subtitles for anime</summary>
-        <description lang="en_GB">Searches and downloads Czech/Slovak anime subtitles from hiyori.cz. Requires a hiyori.cz account - set your username and password in this addon's settings. External/forwarded subtitles (hosted on other fansub sites) are listed but not auto-downloaded - selecting one shows the link instead.</description>
+        <description lang="en_GB">Searches and downloads Czech/Slovak anime subtitles from hiyori.cz. Requires a hiyori.cz account - set your username and password in this addon's settings. External/forwarded subtitles (hosted on other fansub sites) are listed but not auto-downloaded - each is labelled with the actual site that has it (e.g. "Kamui-Subs"), and selecting one shows the link instead.</description>
         <disclaimer lang="en_GB">Requires a hiyori.cz account, entered in this addon's settings.</disclaimer>
         <platform>all</platform>
         <license>All Rights Reserved</license>
@@ -17,7 +17,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="service.subtitles.wosir" name="WoSir Subtitles v1.0" version="1.0.0" provider-name="Highflight Studio">
+<addon id="service.subtitles.wosir" name="WoSir Subtitles" version="1.0.0" provider-name="Highflight Studio">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.22.0"/>
@@ -34,7 +34,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="service.subtitles.edna" name="Edna Subtitles v1.0" version="1.0.0" provider-name="Highflight Studio">
+<addon id="service.subtitles.edna" name="Edna Subtitles" version="1.0.0" provider-name="Highflight Studio">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.22.0"/>
@@ -51,7 +51,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="service.subtitles.kamui" name="Kamui-Subs Subtitles v1.0" version="1.0.3" provider-name="Highflight Studio">
+<addon id="service.subtitles.kamui" name="Kamui-Subs Subtitles" version="1.0.3" provider-name="Highflight Studio">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.22.0"/>
