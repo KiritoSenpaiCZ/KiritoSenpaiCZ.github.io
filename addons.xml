@@ -51,6 +51,23 @@
         </assets>
     </extension>
 </addon>
+<addon id="service.subtitles.kamui" name="Kamui-Subs Subtitles v1.0" version="1.0.0" provider-name="Highflight Studio">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests" version="2.22.0"/>
+    </requires>
+    <extension point="xbmc.subtitle.module" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Kamui-Subs.cz subtitles for anime</summary>
+        <description lang="en_GB">Searches and downloads Czech anime subtitles from kamui-subs.cz. Requires a kamui-subs.cz account - set your username and password in this addon's settings (the site's episode listing and downloads are only visible while logged in). Each show has its own page per season; downloads are zip files that are extracted automatically.</description>
+        <disclaimer lang="en_GB">Requires a kamui-subs.cz account, entered in this addon's settings.</disclaimer>
+        <platform>all</platform>
+        <license>All Rights Reserved</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
 <addon id="repository.highflightsubtitles" name="Highflight Subtitles Repository" version="1.0.0" provider-name="Highflight Studio">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
