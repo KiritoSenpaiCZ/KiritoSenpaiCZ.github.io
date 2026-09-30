@@ -5,17 +5,16 @@ A Kodi addon repository bundling Czech/Slovak subtitle addons for anime and TV f
 Compatible with Kodi 19, 20, and 21.
 
 ## Addons in this repository
-- **Hiyori Subtitles** — [Kodi-Hiyori](https://github.com/KiritoSenpaiCZ/Kodi-Hiyori) (hiyori.cz, Czech/Slovak anime, account required)
-- **WoSir Subtitles** — [Kodi-Wosir](https://github.com/KiritoSenpaiCZ/Kodi-Wosir) (wosir.cz, Czech anime, account required)
-- **Edna Subtitles** — [Kodi-Edna](https://github.com/KiritoSenpaiCZ/Kodi-Edna) (edna.cz, Czech/Slovak TV shows, account required)
-- **Kamui-Subs Subtitles** — [Kodi-Kamui](https://github.com/KiritoSenpaiCZ/Kodi-Kamui) (kamui-subs.cz, Czech anime, account + zip password required)
-- **Legie Kondor Subtitles** — [Kodi-LegieKondor](https://github.com/KiritoSenpaiCZ/Kodi-LegieKondor) (anime4.legiekondor.cz, Czech anime, no account needed)
-- **NyaSub Subtitles** — [Kodi-NyaSub](https://github.com/KiritoSenpaiCZ/Kodi-NyaSub) (nyasub.cz, Czech anime, no account needed)
-- **Hanabi Subtitles** — [Kodi-Hanabi](https://github.com/KiritoSenpaiCZ/Kodi-Hanabi) (hanabi.fan, Czech anime, access token required)
+Each addon fetches subtitles either by scraping the site's own HTML pages (fragile — can break at any point if the site changes its layout, since there's no official support for this) or through an official API (documented and much more stable). Noted per addon below.
+- **Hiyori Subtitles** — [Kodi-Hiyori](https://github.com/KiritoSenpaiCZ/Kodi-Hiyori) (hiyori.cz, Czech/Slovak anime, account required) — gets subtitles via HTML scraping (no official API; can break if the site changes its page layout)
+- **WoSir Subtitles** — [Kodi-Wosir](https://github.com/KiritoSenpaiCZ/Kodi-Wosir) (wosir.cz, Czech anime, account required) — gets subtitles via HTML scraping (no official API; can break if the site changes its page layout)
+- **Edna Subtitles** — [Kodi-Edna](https://github.com/KiritoSenpaiCZ/Kodi-Edna) (edna.cz, Czech/Slovak TV shows, account required) — gets subtitles via HTML scraping (no official API; can break if the site changes its page layout)
+- **Kamui-Subs Subtitles** — [Kodi-Kamui](https://github.com/KiritoSenpaiCZ/Kodi-Kamui) (kamui-subs.cz, Czech anime, account + zip password required) — gets subtitles via HTML scraping (no official API; can break if the site changes its page layout)
+- **Legie Kondor Subtitles** — [Kodi-LegieKondor](https://github.com/KiritoSenpaiCZ/Kodi-LegieKondor) (anime4.legiekondor.cz, Czech anime, no account needed) — gets subtitles via HTML scraping (no official API; can break if the site changes its page layout)
+- **NyaSub Subtitles** — [Kodi-NyaSub](https://github.com/KiritoSenpaiCZ/Kodi-NyaSub) (nyasub.cz, Czech anime, no account needed) — gets subtitles via HTML scraping (no official API; can break if the site changes its page layout)
+- **Hanabi Subtitles** — [Kodi-Hanabi](https://github.com/KiritoSenpaiCZ/Kodi-Hanabi) (hanabi.fan, Czech anime, access token required) — gets subtitles via Hanabi's official REST API (documented and far more stable than scraping)
 
 Each addon's own repo is the source of truth for its code; this repo packages built zips of all seven (plus itself) so Kodi can browse, install and update them from one place.
-
-This repo is named `KiritoSenpaiCZ.github.io` on purpose — that's GitHub's reserved "personal site" name, so its Pages site is served at the short address `https://kiritosenpaicz.github.io/` instead of a longer `.../reponame/` path, which is easier to type into Kodi's file manager on devices with awkward text entry (game consoles, TVs).
 
 ## Installation Instructions
 1. In Kodi: **Settings > File manager > Add source**, and add this short address as a source: `https://kiritosenpaicz.github.io/`
