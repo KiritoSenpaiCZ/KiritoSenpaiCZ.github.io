@@ -17,7 +17,7 @@ Each addon's own repo is the source of truth for its code; this repo packages bu
 
 ## Installation Instructions
 1. In Kodi: **Settings > File manager > Add source**, and add this short address as a source: `https://kiritosenpaicz.github.io/`
-2. Go to **Add-ons > Install from zip file**, select that source, and install `repository.highflightsubtitles-1.0.0.zip`
+2. Go to **Add-ons > Install from zip file**, select that source, and install `repository.highflightsubtitles-1.0.1.zip`
 3. Go to **Add-ons > Install from repository > Highflight Subtitles Repository**, and install any of the addons above
 
 Once the repository addon is installed, Kodi checks this repo for updates to all addons automatically.
