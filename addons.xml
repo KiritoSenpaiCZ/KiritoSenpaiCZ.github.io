@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="service.subtitles.hiyori" name="Hiyori Subtitles" version="1.0.1" provider-name="Highflight Studio">
+<addon id="service.subtitles.hiyori" name="Hiyori Subtitles" version="1.1.0" provider-name="Highflight Studio">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.22.0"/>
@@ -17,7 +17,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="service.subtitles.wosir" name="WoSir Subtitles" version="1.0.0" provider-name="Highflight Studio">
+<addon id="service.subtitles.wosir" name="WoSir Subtitles" version="1.1.0" provider-name="Highflight Studio">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.22.0"/>
@@ -34,7 +34,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="service.subtitles.edna" name="Edna Subtitles" version="1.0.0" provider-name="Highflight Studio">
+<addon id="service.subtitles.edna" name="Edna Subtitles" version="1.1.0" provider-name="Highflight Studio">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.22.0"/>
@@ -51,7 +51,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="service.subtitles.kamui" name="Kamui-Subs Subtitles" version="1.0.3" provider-name="Highflight Studio">
+<addon id="service.subtitles.kamui" name="Kamui-Subs Subtitles" version="1.1.0" provider-name="Highflight Studio">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.22.0"/>
@@ -68,7 +68,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="service.subtitles.legiekondor" name="Legie Kondor Subtitles" version="1.0.0" provider-name="Highflight Studio">
+<addon id="service.subtitles.legiekondor" name="Legie Kondor Subtitles" version="1.1.0" provider-name="Highflight Studio">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.22.0"/>
@@ -84,7 +84,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="service.subtitles.nyasub" name="NyaSub Subtitles" version="1.0.0" provider-name="Highflight Studio">
+<addon id="service.subtitles.nyasub" name="NyaSub Subtitles" version="1.1.0" provider-name="Highflight Studio">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.22.0"/>
