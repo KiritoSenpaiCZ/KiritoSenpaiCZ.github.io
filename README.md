@@ -5,13 +5,20 @@ A Kodi addon repository bundling Czech/Slovak subtitle addons for anime and TV f
 Compatible with Kodi 19, 20, and 21.
 
 ## Addons in this repository
-Each addon fetches subtitles either by scraping the site's own HTML pages — unofficial, done without the site's consent, and fragile since it can break at any point if the site changes its layout — or through an official API that the site provides and supports itself (documented and much more stable). Noted per addon below.
-- **Edna Subtitles** — [Kodi-Edna](https://github.com/KiritoSenpaiCZ/Kodi-Edna) (edna.cz, Czech/Slovak TV shows, account required) — gets subtitles via HTML scraping (unofficial - not sanctioned or consented to by the site; can break if the site changes its page layout)
-- **Hanabi Subtitles** — [Kodi-Hanabi](https://github.com/KiritoSenpaiCZ/Kodi-Hanabi) (hanabi.fan, Czech anime, access token required) — gets subtitles via Hanabi's official REST API, built and published by the site itself for this purpose (documented and far more stable than scraping)
-- **Hiyori Subtitles** — [Kodi-Hiyori](https://github.com/KiritoSenpaiCZ/Kodi-Hiyori) (hiyori.cz, Czech/Slovak anime, account required) — gets subtitles via HTML scraping (unofficial - not sanctioned or consented to by the site; can break if the site changes its page layout)
-- **Kamui-Subs Subtitles** — [Kodi-Kamui](https://github.com/KiritoSenpaiCZ/Kodi-Kamui) (kamui-subs.cz, Czech anime, account + zip password required) — gets subtitles via HTML scraping (unofficial - not sanctioned or consented to by the site; can break if the site changes its page layout)
-- **Legie Kondor Subtitles** — [Kodi-LegieKondor](https://github.com/KiritoSenpaiCZ/Kodi-LegieKondor) (anime4.legiekondor.cz, Czech anime, no account needed) — gets subtitles via HTML scraping (unofficial - not sanctioned or consented to by the site; can break if the site changes its page layout)
-- **WoSir Subtitles** — [Kodi-Wosir](https://github.com/KiritoSenpaiCZ/Kodi-Wosir) (wosir.cz, Czech anime, account required) — gets subtitles via HTML scraping (unofficial - not sanctioned or consented to by the site; can break if the site changes its page layout)
+
+| Addon | Site | Content | Version | Needs | Support |
+|---|---|---|---|---|---|
+| [Edna Subtitles](https://github.com/KiritoSenpaiCZ/Kodi-Edna) | [edna.cz](https://www.edna.cz) | Czech/Slovak TV shows | 1.1.2 | Account | Unofficial |
+| [Hanabi Subtitles](https://github.com/KiritoSenpaiCZ/Kodi-Hanabi) | [hanabi.fan](https://hanabi.fan) | Czech anime | 1.1.2 | Access token (free account) | **Official API** |
+| [Hiyori Subtitles](https://github.com/KiritoSenpaiCZ/Kodi-Hiyori) | [hiyori.cz](https://hiyori.cz) | Czech/Slovak anime | 1.1.1 | Account | Unofficial |
+| [Kamui-Subs Subtitles](https://github.com/KiritoSenpaiCZ/Kodi-Kamui) | [kamui-subs.cz](https://kamui-subs.cz) | Czech anime | 1.1.1 | Account + ZIP password | Unofficial |
+| [Legie Kondor Subtitles](https://github.com/KiritoSenpaiCZ/Kodi-LegieKondor) | [anime4.legiekondor.cz](https://anime4.legiekondor.cz) | Czech anime | 1.1.1 | Nothing | Unofficial |
+| [NyaSub Subtitles](https://github.com/KiritoSenpaiCZ/Kodi-NyaSub) | [nyasub.cz](https://nyasub.cz) | Czech anime | 1.1.1 | Nothing | Unofficial |
+| [WoSir Subtitles](https://github.com/KiritoSenpaiCZ/Kodi-Wosir) | [wosir.cz](https://www.wosir.cz) | Czech anime | 1.1.1 | Account | Unofficial |
+
+**Support:**
+- **Official API**: the site publishes and supports an API for exactly this purpose. Documented and stable.
+- **Unofficial**: the addon reads the site's own web pages (HTML scraping). Not sanctioned by the site, and it can break at any time if the site changes its layout, until the addon is updated.
 
 Each addon's own repo is the source of truth for its code; this repo packages built zips of all seven (plus itself) so Kodi can browse, install and update them from one place.
 
@@ -27,7 +34,8 @@ Once the repository addon is installed, Kodi checks this repo for updates to all
 - `zips/<addon id>/<addon id>-<version>.zip` — the installable zip for each addon
 - `addons.xml` / `addons.xml.md5` — the combined addon metadata Kodi reads
 
-**Note:** this repo (and the source repos it packages) need to be public for Kodi to actually fetch anything from the raw URLs above — while private, only someone with a GitHub session/token can reach these files.
+## VLC
+The same sites (plus titulky.com) are available as VLC extensions, with a one-line installer for Windows and macOS: [VLC-Subtitles](https://github.com/KiritoSenpaiCZ/VLC-Subtitles).
 
 ## Issues
 Please open an issue in the specific addon's own repo rather than here, unless the problem is with the repository or install step itself.
