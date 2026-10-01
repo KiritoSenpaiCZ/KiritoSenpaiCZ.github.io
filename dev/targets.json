@@ -2,6 +2,7 @@
   "blocks": {
     "kodi_temp": [
       "Kodi-Edna/service.py",
+      "Kodi-HNS/service.py",
       "Kodi-Hanabi/service.py",
       "Kodi-Hiyori/service.py",
       "Kodi-Kamui/service.py",
@@ -11,6 +12,7 @@
     ],
     "kodi_lang": [
       "Kodi-Edna/service.py",
+      "Kodi-HNS/service.py",
       "Kodi-Hanabi/service.py",
       "Kodi-Hiyori/service.py",
       "Kodi-Kamui/service.py",

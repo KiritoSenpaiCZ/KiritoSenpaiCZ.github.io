@@ -11,6 +11,7 @@ Compatible with Kodi 19, 20, and 21.
 | [Edna Subtitles](https://github.com/KiritoSenpaiCZ/Kodi-Edna) | [edna.cz](https://www.edna.cz) | Czech/Slovak TV shows | 1.2.0 | Account | Unofficial |
 | [Hanabi Subtitles](https://github.com/KiritoSenpaiCZ/Kodi-Hanabi) | [hanabi.fan](https://hanabi.fan) | Czech anime | 1.2.0 | Access token (free account) | **Official API** |
 | [Hiyori Subtitles](https://github.com/KiritoSenpaiCZ/Kodi-Hiyori) | [hiyori.cz](https://hiyori.cz) | Czech/Slovak anime | 1.2.0 | Account | Unofficial |
+| [HNS Subtitles](https://github.com/KiritoSenpaiCZ/Kodi-HNS) | [hns.sk](https://hns.sk) | Czech/Slovak anime | 1.0.0 | Account (e-mail) | Unofficial |
 | [Kamui-Subs Subtitles](https://github.com/KiritoSenpaiCZ/Kodi-Kamui) | [kamui-subs.cz](https://kamui-subs.cz) | Czech anime | 1.2.0 | Account + ZIP password | Unofficial |
 | [Legie Kondor Subtitles](https://github.com/KiritoSenpaiCZ/Kodi-LegieKondor) | [anime4.legiekondor.cz](https://anime4.legiekondor.cz) | Czech anime | 1.2.0 | Nothing | Unofficial |
 | [NyaSub Subtitles](https://github.com/KiritoSenpaiCZ/Kodi-NyaSub) | [nyasub.cz](https://nyasub.cz) | Czech anime | 1.2.0 | Nothing | Unofficial |
@@ -20,11 +21,11 @@ Compatible with Kodi 19, 20, and 21.
 - **Official API**: the site publishes and supports an API for exactly this purpose. Documented and stable.
 - **Unofficial**: the addon reads the site's own web pages (HTML scraping). Not sanctioned by the site, and it can break at any time if the site changes its layout, until the addon is updated.
 
-Each addon's own repo is the source of truth for its code; this repo packages built zips of all seven (plus itself) so Kodi can browse, install and update them from one place.
+Each addon's own repo is the source of truth for its code; this repo packages built zips of all eight (plus itself) so Kodi can browse, install and update them from one place.
 
 ## Installation Instructions
 1. In Kodi: **Settings > File manager > Add source**, and add this short address as a source: `https://kiritosenpaicz.github.io/`
-2. Go to **Add-ons > Install from zip file**, select that source, and install `repository.highflightsubtitles-1.0.1.zip`
+2. Go to **Add-ons > Install from zip file**, select that source, and install `repository.highflightsubtitles-1.0.2.zip`
 3. Go to **Add-ons > Install from repository > Highflight Subtitles Repository**, and install any of the addons above
 
 Once the repository addon is installed, Kodi checks this repo for updates to all addons automatically.

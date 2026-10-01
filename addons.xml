@@ -136,7 +136,27 @@
         </assets>
     </extension>
 </addon>
-<addon id="repository.highflightsubtitles" name="Highflight Subtitles Repository" version="1.0.1" provider-name="Highflight Studio">
+<addon id="service.subtitles.hns" name="HNS Subtitles" version="1.0.0" provider-name="Highflight Studio">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests" version="2.22.0"/>
+    </requires>
+    <extension point="xbmc.subtitle.module" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">HNS (hns.sk) subtitles for anime</summary>
+        <summary lang="cs_CZ">Titulky k anime z HNS (hns.sk)</summary>
+        <description lang="en_GB">Searches and downloads Czech and Slovak anime subtitles from hns.sk, which hosts the translations of several fansub groups. Requires a hns.sk account - set your e-mail and password in this addon's settings. Lists every release of an episode (e.g. SubsPlease, Erai-raws) with its translator, so you can pick the one matching your video.</description>
+        <description lang="cs_CZ">Vyhledává a stahuje české a slovenské titulky k anime z hns.sk, kde jsou překlady několika fansub skupin. Vyžaduje účet na hns.sk - e-mail a heslo zadejte v nastavení doplňku. U každé epizody zobrazí všechny verze (např. SubsPlease, Erai-raws) i s překladatelem, takže si vyberete tu, která sedí k vašemu videu.</description>
+        <disclaimer lang="en_GB">Requires a hns.sk account, entered in this addon's settings.</disclaimer>
+        <disclaimer lang="cs_CZ">Vyžaduje účet na hns.sk, zadaný v nastavení doplňku.</disclaimer>
+        <platform>all</platform>
+        <license>All Rights Reserved</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+<addon id="repository.highflightsubtitles" name="Highflight Subtitles Repository" version="1.0.2" provider-name="Highflight Studio">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -148,8 +168,8 @@
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Repository for the Hiyori, WoSir, Edna, Kamui-Subs, Legie Kondor, NyaSub and Hanabi Kodi subtitle addons</summary>
-        <description lang="en_GB">Adds one repository source so you can browse and install/update the Hiyori.cz, WoSir.cz, Edna.cz, Kamui-Subs.cz, Legie Kondor (anime4.legiekondor.cz), NyaSub.cz and Hanabi (hanabi.fan) subtitle addons directly from Kodi's addon browser, instead of installing each addon's zip separately.</description>
+        <summary lang="en_GB">Repository for the Hiyori, WoSir, Edna, Kamui-Subs, Legie Kondor, NyaSub, Hanabi and HNS Kodi subtitle addons</summary>
+        <description lang="en_GB">Adds one repository source so you can browse and install/update the Hiyori.cz, WoSir.cz, Edna.cz, Kamui-Subs.cz, Legie Kondor (anime4.legiekondor.cz), NyaSub.cz, Hanabi (hanabi.fan) and HNS (hns.sk) subtitle addons directly from Kodi's addon browser, instead of installing each addon's zip separately.</description>
         <platform>all</platform>
         <license>All Rights Reserved</license>
         <assets>
