@@ -1,0 +1,13 @@
+{
+  "blocks": {
+    "kodi_temp": [
+      "Kodi-Edna/service.py",
+      "Kodi-Hanabi/service.py",
+      "Kodi-Hiyori/service.py",
+      "Kodi-Kamui/service.py",
+      "Kodi-LegieKondor/service.py",
+      "Kodi-NyaSub/service.py",
+      "Kodi-Wosir/service.py"
+    ]
+  }
+}

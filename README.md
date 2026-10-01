@@ -33,6 +33,7 @@ Once the repository addon is installed, Kodi checks this repo for updates to all
 - `index.html` — landing page with direct zip links, used for the one-time "Add source" step
 - `zips/<addon id>/<addon id>-<version>.zip` — the installable zip for each addon
 - `addons.xml` / `addons.xml.md5` — the combined addon metadata Kodi reads
+- `dev/` — maintenance tools (shared code kept in one place), not needed to use the addons
 
 ## VLC
 The same sites (plus titulky.com) are available as VLC extensions, with a one-line installer for Windows and macOS: [VLC-Subtitles](https://github.com/KiritoSenpaiCZ/VLC-Subtitles).
