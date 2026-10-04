@@ -68,7 +68,10 @@ def main(folder, version):
     xml_text = pattern.sub(lambda _: entry, xml_text)
     write(xml_path, xml_text)
     minidom.parse(xml_path)
-    open(os.path.join(REPO, 'addons.xml.md5'), 'w', newline='').write(hashlib.md5(open(xml_path, 'rb').read()).hexdigest())
+    # git stores addons.xml with LF line endings, and that is what Kodi
+    # downloads, so the checksum is taken over the LF version
+    xml_lf = open(xml_path, 'rb').read().replace(b'\r\n', b'\n')
+    open(os.path.join(REPO, 'addons.xml.md5'), 'w', newline='').write(hashlib.md5(xml_lf).hexdigest())
 
     table_path = os.path.join(REPO, 'README.md')
     table, _ = read(table_path)
