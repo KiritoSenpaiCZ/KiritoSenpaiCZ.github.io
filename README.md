@@ -12,7 +12,7 @@ Compatible with Kodi 19, 20, and 21.
 | [Hanabi Subtitles](https://github.com/KiritoSenpaiCZ/Kodi-Hanabi) | [hanabi.fan](https://hanabi.fan) | Czech anime | 1.2.0 | Access token (free account) | **Official API** |
 | [Hiyori Subtitles](https://github.com/KiritoSenpaiCZ/Kodi-Hiyori) | [hiyori.cz](https://hiyori.cz) | Czech/Slovak anime | 1.2.0 | Account | Unofficial |
 | [HNS Subtitles](https://github.com/KiritoSenpaiCZ/Kodi-HNS) | [hns.sk](https://hns.sk) | Czech/Slovak anime | 1.0.0 | Account (e-mail) | Unofficial |
-| [Kamui-Subs Subtitles](https://github.com/KiritoSenpaiCZ/Kodi-Kamui) | [kamui-subs.cz](https://kamui-subs.cz) | Czech anime | 1.2.0 | Account + ZIP password | Unofficial |
+| [Kamui-Subs Subtitles](https://github.com/KiritoSenpaiCZ/Kodi-Kamui) | [kamui-subs.cz](https://kamui-subs.cz) | Czech anime | 1.2.1 | Account + ZIP password | Unofficial |
 | [Legie Kondor Subtitles](https://github.com/KiritoSenpaiCZ/Kodi-LegieKondor) | [anime4.legiekondor.cz](https://anime4.legiekondor.cz) | Czech anime | 1.2.0 | Nothing | Unofficial |
 | [NyaSub Subtitles](https://github.com/KiritoSenpaiCZ/Kodi-NyaSub) | [nyasub.cz](https://nyasub.cz) | Czech anime | 1.2.0 | Nothing | Unofficial |
 | [WoSir Subtitles](https://github.com/KiritoSenpaiCZ/Kodi-Wosir) | [wosir.cz](https://www.wosir.cz) | Czech anime | 1.2.0 | Account | Unofficial |
